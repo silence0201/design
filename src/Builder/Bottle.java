@@ -5,5 +5,9 @@ package Builder;
  * Author: silence
  * Update: silence(2016-07-29 22:28)
  */
-public class Bottle {
+public class Bottle implements Packing {
+    @Override
+    public String pack() {
+        return "Bottle";
+    }
 }

@@ -5,5 +5,8 @@ package NullObject;
  * Author: silence
  * Update: silence(2016-08-01 20:43)
  */
-public class AbstractCustomer {
+public abstract class AbstractCustomer {
+    protected String name;
+    public abstract boolean isNil();
+    public abstract String getName();
 }

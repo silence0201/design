@@ -5,5 +5,6 @@ package Bridge;
  * Author: silence
  * Update: silence(2016-07-29 22:51)
  */
-public class DrawAPI {
+public interface DrawAPI {
+    public void drawCircle(int radius, int x, int y);
 }

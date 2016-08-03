@@ -5,5 +5,7 @@ package Observer;
  * Author: silence
  * Update: silence(2016-08-01 20:31)
  */
-public class Observer {
+public abstract class Observer {
+    protected Subject subject;
+    public abstract void update();
 }

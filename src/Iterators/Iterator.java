@@ -5,5 +5,7 @@ package Iterators;
  * Author: silence
  * Update: silence(2016-08-01 20:18)
  */
-public class Iterator {
+public interface Iterator {
+    public boolean hasNext();
+    public Object next();
 }

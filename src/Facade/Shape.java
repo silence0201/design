@@ -6,4 +6,5 @@ package Facade;
  * Update: silence(2016-07-29 23:21)
  */
 public interface Shape {
+    void draw();
 }

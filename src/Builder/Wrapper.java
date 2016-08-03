@@ -5,5 +5,9 @@ package Builder;
  * Author: silence
  * Update: silence(2016-07-29 22:27)
  */
-public class Wrapper {
+public class Wrapper implements Packing {
+    @Override
+    public String pack() {
+        return "Wrapper";
+    }
 }

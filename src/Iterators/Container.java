@@ -6,4 +6,5 @@ package Iterators;
  * Update: silence(2016-08-01 20:19)
  */
 public interface Container {
+    public Iterator getIterator();
 }

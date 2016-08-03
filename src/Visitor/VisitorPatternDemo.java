@@ -6,4 +6,9 @@ package Visitor;
  * Update: silence(2016-08-02 22:10)
  */
 public class VisitorPatternDemo {
+    public static void main(String[] args) {
+
+        ComputerPart computer = new Computer();
+        computer.accept(new ComputerPartDisplayVisitor());
+    }
 }
